@@ -1,6 +1,12 @@
 
 https://www.gtk.org/docs/getting-started/hello-world/
 
-.. in MSYS+MINGW
+install development files for the GTK library
 
-pacman -S mingw-w64-x86_64-gtk4 # gtk4
+.. in MSYS+MINGW :
+
+pacman -S mingw-w64-x86_64-gtk4
+
+.. in Ubuntu GNU/Linux :
+
+sudo apt install libgtk-4-dev

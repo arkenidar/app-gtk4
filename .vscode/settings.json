@@ -1,9 +1,0 @@
-{
-    "makefile.launchConfigurations": [
-        {
-            "cwd": "c:\\opt\\Dropbox\\work\\gh-repos\\app-gtk4",
-            "binaryPath": "c:\\opt\\Dropbox\\work\\gh-repos\\app-gtk4\\app",
-            "binaryArgs": []
-        }
-    ]
-}

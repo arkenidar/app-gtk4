@@ -1,2 +1,7 @@
-all:
-	gcc $(shell pkg-config --cflags gtk4) -o app main.c $(shell pkg-config --libs gtk4) && ./app
+all: build run
+
+build:
+	gcc -g -o app.exe *.c $(shell pkg-config  --cflags --libs gtk4)
+
+run:
+	./app.exe
